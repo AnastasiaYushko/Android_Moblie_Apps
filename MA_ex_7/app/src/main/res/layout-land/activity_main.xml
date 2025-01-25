@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#D1A8BC"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/crow"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TableLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:text="@string/b_1_2"
+                    android:backgroundTint="#BB3636"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6D9044"
+                    android:text="@string/b_2"
+                    android:textColor="#FFFFFF" />
+            </TableRow>
+
+            <TableRow style="?android:attr/buttonBarStyle">
+
+                <Button
+                    android:id="@+id/button3"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b_3"
+                    android:backgroundTint="#4C85C8"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button4"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#AF69C2"
+                    android:text="Четвёртая кнопка"
+                    android:textColor="@color/white" />
+            </TableRow>
+
+            <TableRow style="?android:attr/buttonBarStyle">
+
+                <Button
+                    android:id="@+id/button5"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#767913"
+                    android:text="Пятая кнопка"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button6"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BF7122"
+                    android:text="Шестая кнопка"
+                    android:textColor="@color/white" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

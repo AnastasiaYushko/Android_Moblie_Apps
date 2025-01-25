@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Применение стилей</string>
+    <string name="hi">Приветик!</string>
+    <string name="textappearance_material_title">TextAppearance.Material.Title</string>
+    <string name="button_1">Кнопочка</string>
+    <string name="button_2">Обрезанная кнопка</string>
+    <string name="sad">Он грустит</string>
+</resources>

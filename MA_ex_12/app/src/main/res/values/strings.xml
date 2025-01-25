@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PopupMenu</string>
+    <string name="menu">Показать меню</string>
+    <string name="cat_song">Мяу</string>
+    <string name="todo">TODO</string>
+    <string name="red">Красный</string>
+    <string name="green">Зеленый</string>
+    <string name="yellow">Желтый</string>
+    <string name="yellow_2">Ярко желтый</string>
+    <string name="lilac">Сиреневый</string>
+    <string name="blue">Голубой</string>
+    <string name="pink">Розовый</string>
+</resources>

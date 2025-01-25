@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">21_Локализация</string>
+    <string name="hello"> Привет</string>
+    <string name="hello_kitty">Привет Китти!</string>
+    <string name="cat_name">Как зовут кота?</string>
+</resources>

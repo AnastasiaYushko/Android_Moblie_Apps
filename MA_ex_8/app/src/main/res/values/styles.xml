@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#1215EF</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="MyTextStyle.Red">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    <style name="MyTextStyle.Red.Big">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="Numbers">
+        <item name="android:inputType">number</item>
+        <item name = "android:gravity">center</item>
+        <item name="android:hint">Введите число</item>
+        <item name ="android:textColor">#EF0BCE</item>
+        <item name="android:textColorHint">#7F620F</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/custom_theme_primary</item>
+        <item name="android:background">#8AD697</item>
+        <item name="android:color">@color/accentColor</item>
+        <item name="android:textColor">#350574</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DestructiveButton</item>
+    </style>
+    <style name="AlertDialogCustom.Destructive">
+        <item name="android:buttonBarPositiveButtonStyle">@style/DestructiveButton</item>
+    </style>
+
+    <style name="DestructiveButton" parent="android:Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textColor">@color/red_color</item>
+    </style>
+    <style name="TitleDialogTextStyle">
+        <item name="android:textColor">#FF5722</item>
+    </style>
+
+    <style name="CustomOvalButton" parent="Widget.MaterialComponents.Button">
+        <!-- Устанавливаем округлённые углы для кнопки -->
+        <item name="shapeAppearanceOverlay">@style/OvalShape</item>
+    </style>
+
+    <style name="OvalShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamilyBottomLeft">cut</item>
+        <item name="cornerFamilyBottomRight">cut</item>
+        <item name="cornerSizeBottomLeft">45%</item>
+        <item name="cornerSizeBottomRight">45%</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Шерлок</string>
+    <string name="choice">Сделать выбор</string>
+    <string name="who_stole">Кто украл колбасу?</string>
+    <string name="choose_answer">Выберите правильный ответ:</string>
+    <string name="cat">Пушистый котик</string>
+    <string name="crow">Белая ворона</string>
+    <string name="happy_dog">Веселая собака</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MA_ex_4</string>
+    <string name="red_string">Красный</string>
+    <string name="yellow_string">Желтый</string>
+    <string name="green_string">Зеленый</string>
+</resources>

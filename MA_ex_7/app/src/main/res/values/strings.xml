@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MA_ex_7</string>
+    <string name="enter">Enter</string>
+    <string name="b_1_2">Портретный режим</string>
+    <string name="b_1_1">Альбомный режим</string>
+    <string name="b_2">Считать ворон</string>
+    <string name="b_3">Третья кнопка</string>
+</resources>

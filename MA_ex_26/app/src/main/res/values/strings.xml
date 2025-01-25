@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">26_Экран настроек</string>
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_summary">Вкл. или выкл. сеть WiFi</string>
+    <string name="hints_title">Подсказки</string>
+    <string name="hints_summary">Показывать подсказки</string>
+    <string name="settings_title">SETTING TITLE</string>
+    <string name="pref_openmode">Режим открытия</string>
+    <string	name="pref_color">Цвет</string>
+    <string	name="pref_color_black">Черный цвет</string>
+    <string	name="pref_color_red">Красный цвет</string>
+    <string	name="pref_color_green">Зеленый цвет</string>
+    <string	name="pref_color_blue">Синий цвет</string>
+    <string	name="pref_size">Размер</string>
+    <string	name="pref_style">Стиль</string>
+    <string	name="pref_style_regular">Нормальный</string>
+    <string	name="pref_style_bold">Полужирный</string>
+    <string	name="pref_style_italic">Курсив</string>
+    <string	name="pref_height">Длина кота</string>
+</resources>

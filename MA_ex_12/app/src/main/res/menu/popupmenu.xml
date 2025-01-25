@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menugroup1">
+        <item
+            android:id="@+id/red"
+            android:icon="@drawable/paw"
+            android:iconTint="#F44336"
+            android:iconTintMode="src_in"
+            android:title="@string/red" />
+        <item
+            android:id="@+id/green"
+            android:icon="@drawable/paw"
+            android:iconTint="#12A40D"
+            android:iconTintMode="src_in"
+            android:title="@string/green" />
+        <item
+            android:id="@+id/yellow"
+            android:icon="@drawable/paw"
+            android:iconTint="#FFC107"
+            android:iconTintMode="src_in"
+            android:title="@string/yellow">
+            <menu>
+                <item
+                    android:id="@+id/submenu"
+                    android:title="@string/yellow_2" />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/menugroup2">
+        <item
+            android:id="@+id/lilac"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/paw"
+            android:iconTint="#9C27B0"
+            android:iconTintMode="src_in"
+            android:title="@string/lilac" />
+        <item
+            android:id="@+id/blue"
+            android:enabled="false"
+            android:icon="@drawable/paw"
+            android:iconTint="#169CC1"
+            android:iconTintMode="src_in"
+            android:title="@string/blue" />
+        <item
+            android:id="@+id/pink"
+            android:icon="@drawable/paw"
+            android:iconTint="#DB2CC9"
+            android:iconTintMode="src_in"
+            android:title="@string/pink" />
+    </group>
+</menu>
